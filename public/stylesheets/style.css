@@ -1,6 +1,8 @@
 body {
   font-family: Ubuntu, Helvetica, Arial, sans-serif;
+  height: 100%;
 }
+
 .nos{
    display: table;
    margin: 15px;
