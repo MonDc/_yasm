@@ -1,11 +1,10 @@
 body {
   font-family: Ubuntu, Helvetica, Arial, sans-serif;
-  height: 100%;
 }
 
 .nos{
    display: table;
-   margin: 15px;
+   margin: 3px;
 
    width: 350px;
    height: 100px;
@@ -45,7 +44,7 @@ body {
 }
 
 .flex-container label {
-  margin: 15px;
+  margin: 3px;
 }
 
 .styled-radio {
