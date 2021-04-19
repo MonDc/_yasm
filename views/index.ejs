@@ -141,7 +141,7 @@
 
 
 
-            <div class="row mt-3">
+            <div class="row mt-2">
                 <div class="nos">
                     <label class="alert alert-warning text-center names text-muted baad">
 
@@ -157,7 +157,7 @@
 
                 <div class="nos besty">
                     <label class="alert alert-info text-center names text-muted">
-                        Yasmeen is the BEST
+                        Yasmeen the BEST
                     </label>
                 </div>
 
@@ -190,11 +190,13 @@
                     $('.sady').hide();
                     $('.besty').show();
                     $('.nobesty').hide();
+                    $('.baad').hide();
                 }
                 else if ($('#radio1').is(':checked') && $('#radio3').is(':checked') && $('#radio5').is(':checked') && $('#radio7').is(':checked') && $('#radio9').is(':checked') && $('#radio11').is(':checked')) {
                     $('.sady').show();
                     $('.besty').hide();
                     $('.nobesty').hide();
+                    $('.baad').hide();
 
 
                 }
@@ -202,6 +204,7 @@
                     $('.sady').hide();
                     $('.nobesty').show();
                     $('.besty').hide();
+                    $('.baad').hide();
                 }
             });
         });

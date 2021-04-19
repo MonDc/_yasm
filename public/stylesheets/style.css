@@ -4,7 +4,7 @@ body {
 
 .nos{
    display: table;
-   margin: 3px;
+   margin: 2px;
 
    width: 350px;
    height: 100px;
@@ -16,12 +16,15 @@ body {
   border-color: rgb(88, 231, 119) !important;
   letter-spacing: 0.20rem;
 }
-
+.alert{
+  border-radius: 7rem !important;
+}
 .baad::after{
     content: '🤔';
     font-size: 3em;
     display: inline-block;
     box-sizing: border-box;
+    border-radius: 50%;
     /* padding: 20px; */
     /* width: 150px; */
     text-align: center;
@@ -44,7 +47,7 @@ body {
 }
 
 .flex-container label {
-  margin: 3px;
+  margin: 2px;
 }
 
 .styled-radio {
